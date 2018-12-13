@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127408470-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127408470-1');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Know better</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="../smokeyjoe.js"></script>
+    <script src="movies.js"></script>
+</head>
+<body>
+    <div id="fake_opacity"></div>
+    <div id="fullpage-container">
+        <div id="navigation">
+            <div id="prev">
+                <a href=".."><- Back to home</a>
+            </div>
+            <div id="mid">
+                <a href="..">iAmLakshay.com</a>
+            </div>
+            <div id="next">
+                <a href="../currentprojects/">Current projects -></a>
+            </div>
+        </div>
+
+        <div id="aboutme">
+            <h1>My &nbsp;favorite &nbsp;movies</h1>
+            <div id="movies">
+                <button onclick="change_movie(-1)" id="left">&lt;</button>
+                <div onclick="change_movie(-2)" class="moviesmallest"><img src="movies/thetimemachine.jpg" id="movieimage1"/></div>
+                <div onclick="change_movie(-1)" class="moviesmall"><img src="movies/3idiots.jpg" id="movieimage2"/></div>
+                <a href="" id="movielink"><div class="moviemain"><img width="100%" src="movies/gravity.jpeg" id="movieimage3"/></div></a>
+                <div onclick="change_movie(1)" class="moviesmall"><img src="movies/inception.jpg" id="movieimage4"/></div>
+                <div onclick="change_movie(2)" class="moviesmallest"><img src="movies/cars.jpg" id="movieimage5"/></div>
+                <button onclick="change_movie(1)" id="right">&gt;</button>
+                <br>
+                <span id="moviename">Gravity (2013)</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="../knowbetter"><div class="smallbutton">KNOW ME BETTER</div></a>
+        <a href="../blog"><div class="smallbutton">PERSONAL BLOG</div></a>
+        <a href="../contactme"><div class="smallbutton">CONTACT ME</div></a>
+        <a href="../Lakshay Sharma.pdf" download><div class="smallbutton" style="color:lightgreen">DOWNLOAD MY CV</div></a>
+    </footer>
+</body>
+</html>

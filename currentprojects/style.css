@@ -1,0 +1,108 @@
+html, body{
+    margin: 0%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navigation{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+}
+
+#navigation a{
+    color: white;
+}
+
+#prev, #mid, #next{
+    display: inline-block;
+}
+
+#prev:hover, #next:hover{
+    filter: invert(15%);
+}
+
+#prev{
+    position: absolute;
+    left: 5%;
+}
+
+#next{
+    right: 5%;
+    position: absolute;
+}
+
+
+header{
+    background-color: white;
+    color: rgba(0,0,0,0.3);
+    width: 100%;
+    text-align: center;
+    padding: 2% 0 2% 0;
+    letter-spacing: 2px;
+}
+
+#projectscontainer{
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 5% 0 5% 0;
+    text-align: center;
+    color: white;
+}
+
+.project{
+    background-color: white;
+    padding: 1% 10% 1% 10%;
+    margin: 2% 4% 2% 4%;
+    display: inline-block;
+    width: 50%;
+}
+
+.project h3{
+    color: darkmagenta;
+}
+
+.project:hover h3{
+    color: orangered;
+}
+
+.project p{
+    color: lightslategray;
+}
+
+.project span{
+    color: red;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.smallbutton{
+    margin: 0 1% 0 1%;
+    display: inline-block;
+    color: white;
+    padding: 1%;
+    font-size: 12px;
+}
+
+.smallbutton:hover{
+    filter: invert(50%);
+}
+
+@media only screen and (max-width: 900px) {
+    #prev, #mid, #next{
+        font-size: 70%;
+    }
+
+    .project{
+        width: initial;
+    }
+}

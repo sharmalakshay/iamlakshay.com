@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://iamlakshay.com/</loc>
+  <lastmod>2018-10-12T17:05:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://iamlakshay.com/pastprojects/</loc>
+  <lastmod>2018-10-12T17:05:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iamlakshay.com/currentprojects/</loc>
+  <lastmod>2018-10-12T17:05:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iamlakshay.com/futureprojects/</loc>
+  <lastmod>2018-10-12T17:05:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iamlakshay.com/knowbetter/</loc>
+  <lastmod>2018-10-12T09:48:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iamlakshay.com/blog/</loc>
+  <lastmod>2018-10-12T09:48:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iamlakshay.com/contactme/</loc>
+  <lastmod>2018-10-12T09:48:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iamlakshay.com/Lakshay%20Sharma.pdf</loc>
+  <lastmod>2018-10-12T17:05:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

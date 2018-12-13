@@ -1,0 +1,129 @@
+html, body{
+    margin: 0%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#fake_opacity{
+    background: lightgreen url("bg.jpg");
+    background-attachment: fixed;
+    background-position-y: 50%;
+    background-size: 100%;
+    padding-top: 25%;
+    width: 100%;
+    filter: brightness(45%);
+    z-index: 2;
+}
+
+#header_container{
+    width: 100%;
+    padding-top: 5%;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    top: 5%;
+}
+
+header{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.4vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navigation{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+}
+
+#navigation a{
+    color: white;
+}
+
+#prev, #mid, #next{
+    display: inline-block;
+}
+
+#prev:hover, #next:hover{
+    filter: invert(15%);
+}
+
+#prev{
+    position: absolute;
+    left: 5%;
+}
+
+#next{
+    right: 5%;
+    position: absolute;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.smallbutton{
+    margin: 0 1% 0 1%;
+    display: inline-block;
+    color: white;
+    padding: 1%;
+    font-size: 12px;
+}
+
+.smallbutton:hover{
+    filter: invert(50%);
+}
+
+.blog_post{
+    margin: 1%;
+    padding: 2% 2% 1% 2%;
+    background: mistyrose;
+}
+
+.post_header{
+    padding: 1% 0;
+}
+
+.post_title{
+    font-size: 140%;
+}
+
+.post_date{
+    font-size: 80%;
+    color: darkslategrey;
+    right: 5%;
+    position: absolute;
+}
+
+.post_footer{
+    padding-top: 1%;
+    font-size: 80%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    header{
+        font-size: 70%;
+    }
+
+    #fake_opacity{
+        padding-top: 45%;
+    }
+
+    #prev, #mid, #next{
+        font-size: 70%;
+    }
+}
