@@ -31,7 +31,7 @@
                 <a href="..">iAmLakshay.com</a>
             </div>
             <div id="next">
-                <a href="../currentprojects/">Current projects -></a>
+                <a href="../blog/">Personal blog -></a>
             </div>
         </div>
 
@@ -39,14 +39,14 @@
             <h1>My &nbsp;favorite &nbsp;movies</h1>
             <div id="movies">
                 <button onclick="change_movie(-1)" id="left">&lt;</button>
-                <div onclick="change_movie(-2)" class="moviesmallest"><img src="movies/thetimemachine.jpg" id="movieimage1"/></div>
-                <div onclick="change_movie(-1)" class="moviesmall"><img src="movies/3idiots.jpg" id="movieimage2"/></div>
-                <a href="" id="movielink"><div class="moviemain"><img width="100%" src="movies/gravity.jpeg" id="movieimage3"/></div></a>
-                <div onclick="change_movie(1)" class="moviesmall"><img src="movies/inception.jpg" id="movieimage4"/></div>
-                <div onclick="change_movie(2)" class="moviesmallest"><img src="movies/cars.jpg" id="movieimage5"/></div>
+                <div onclick="change_movie(-2)" class="moviesmallest"><img src="movies/thetimemachine.jpg" onerror="this.src='noimage.png'" id="movieimage1"/></div>
+                <div onclick="change_movie(-1)" class="moviesmall"><img src="movies/3idiots.jpg" onerror="this.src='noimage.png'" id="movieimage2"/></div>
+                <a href="#" id="movielink"><div class="moviemain"><img width="100%" src="movies/interstellar.jpeg" id="movieimage3"/></div></a>
+                <div onclick="change_movie(1)" class="moviesmall"><img src="movies/inception.jpg" onerror="this.src='noimage.png'" id="movieimage4"/></div>
+                <div onclick="change_movie(2)" class="moviesmallest"><img src="movies/cars.jpg" onerror="this.src='noimage.png'" id="movieimage5"/></div>
                 <button onclick="change_movie(1)" id="right">&gt;</button>
                 <br>
-                <span id="moviename">Gravity (2013)</span>
+                <span id="moviename">Interstellar (2014)</span>
             </div>
         </div>
     </div>

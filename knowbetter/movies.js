@@ -2,34 +2,26 @@ var current_val = 0;
 var movie_names = [
     "The Time Machine (2002)",
     "3 Idiots (2009)",
-    "Gravity (2013)",
+    "Interstellar (2014)",
     "Inception (2010)",
     "Cars (2006-2017)",
-    "",
-    "",
-
+    "Miracle on 34th Street (1947)",
+    "The Dark Knight Trilogy"
 ];
 
 var movie_images = [
     "thetimemachine.jpg",
     "3idiots.jpg",
-    "gravity.jpeg",
+    "interstellar.jpeg",
     "inception.jpg",
     "cars.jpg",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    
+    "miracleon34thstreet.jpg",
+    "thedarkknighttrilogy.jpeg",
 ];
 function change_movie(val){
-
-    //if val in minus, make a different piece of code similar to this but which would subtract from val not plus :D
     current_val += val;
-    //if(current_val < 0 || current_val > 0) current_val -= val;
+    if(current_val < -2) current_val = movie_images.length-3;
+    if(current_val > movie_images.length-3) current_val = -2;
     document.getElementById("moviename").innerText = movie_names[current_val+2];
     document.getElementById("movieimage1").src = "movies/".concat(movie_images[current_val]);
     document.getElementById("movieimage2").src = "movies/".concat(movie_images[current_val+1]);
