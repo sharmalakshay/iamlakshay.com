@@ -10,7 +10,7 @@ html, body{
 }
 
 #fake_opacity{
-    background: black url("bg.jpg");
+    background: black linear-gradient(to bottom right, black, #555);
     background-attachment: scroll;
     background-repeat: no-repeat;
     width: 100%;
@@ -62,43 +62,6 @@ a{
     position: absolute;
 }
 
-#aboutme{
-    padding: 3% 0%;
-    font-family: 'Anonymous Pro', monospace;
-    line-height: 140%;
-    text-align: center;
-}
-
-#aboutme h1{
-    font-family: 'AURORA';
-    font-size: 3vw;
-    letter-spacing: 3px;
-}
-
-#movies{
-    width: 100%;
-}
-
-#movies div{
-    display: inline-block;
-}
-
-.moviesmallest{
-    width: 10%;
-}
-
-.moviesmall{
-    width: 20%;
-}
-
-.moviemain{
-    width: 25%;
-}
-
-#movies img{
-    width: 100%;
-}
-
 button{
     background: black;
     color: white;
@@ -136,4 +99,5 @@ footer{
 
 @media only screen and (max-width: 900px) {
 
+    
 }
