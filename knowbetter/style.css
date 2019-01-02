@@ -67,6 +67,7 @@ a{
     font-family: 'Anonymous Pro', monospace;
     line-height: 140%;
     text-align: center;
+    background: black;
 }
 
 #aboutme h1{
@@ -99,6 +100,8 @@ a{
     width: 100%;
 }
 
+
+
 button{
     background: black;
     color: white;
@@ -116,7 +119,6 @@ button:focus {
 
 
 footer{
-    position: absolute;
     width: 100%;
     background-color: black;
     text-align: center;
